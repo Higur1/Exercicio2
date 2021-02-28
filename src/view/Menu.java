@@ -10,7 +10,7 @@ public class Menu {
 		Processos Proc = new Processos();
 		
 		String so = Proc.so();
-		int escolha = JOptionPane.showOptionDialog(null, "Escolha uma opção", "Opções",0, JOptionPane.DEFAULT_OPTION,null, opc, opc[0]);
+		int escolha = JOptionPane.showOptionDialog(null, "Escolha uma opcao", "Opcoes",0, JOptionPane.DEFAULT_OPTION,null, opc, opc[0]);
 		if (escolha == 0) {
 			Proc.LerProcessos(so);
 		}
